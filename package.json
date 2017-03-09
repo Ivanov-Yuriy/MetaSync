@@ -1,8 +1,9 @@
 {
   "name": "metasync",
-  "version": "0.0.8",
+  "version": "0.1.6",
   "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
   "description": "Metasync is a Meta Async Programming Approach",
+  "license": "MIT",
   "keywords": [
     "async",
     "callback",
@@ -18,5 +19,21 @@
     "url": "https://github.com/metarhia/MetaSync"
   },
   "main": "./metasync.js",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "node tests/examples && node tests/chain"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "3.x"
+  },
+  "jshintConfig": {
+    "esversion": 6,
+    "predef": [],
+    "node": true,
+    "indent": 2,
+    "maxcomplexity": 7
+  }
 }
