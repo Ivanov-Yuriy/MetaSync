@@ -1,5 +1,6 @@
 'use strict';
 
+
 var metasync = {};
 module.exports = metasync;
 
